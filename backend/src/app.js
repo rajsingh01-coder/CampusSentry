@@ -8,6 +8,9 @@ const authRoutes = require('./routes/auth.routes');
 const otpRoutes = require('./routes/otp.routes');
 const visitorRoutes = require('./routes/visitor.routes');
 const approvalRoutes = require('./routes/approval.routes');
+const entryRoutes = require('./routes/entry.routes');
+const aiRoutes = require('./routes/ai.routes');
+const adminRoutes = require('./routes/admin.routes');
 
 const app = express();
 
@@ -25,6 +28,9 @@ app.use('/api/auth', authRoutes);
 app.use('/api/otp', otpRoutes);
 app.use('/api/visitors', visitorRoutes);
 app.use('/api/approvals', approvalRoutes);
+app.use('/api/entries', entryRoutes);
+app.use('/api/ai', aiRoutes);
+app.use('/api/admin', adminRoutes);
 
 app.use(errorHandler);
 

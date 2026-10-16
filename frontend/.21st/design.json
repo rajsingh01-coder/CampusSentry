@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "product": "CampusSentry AI Admin Web Application",
+  "visualDirection": "A restrained campus operations interface: clear, quiet, and easy to scan under time pressure.",
+  "tokens": {
+    "light": {
+      "background": "#F8FAFC",
+      "surface": "#FFFFFF",
+      "surfaceMuted": "#F1F5F9",
+      "text": "#0F172A",
+      "textMuted": "#64748B",
+      "border": "#E2E8F0",
+      "primary": "#2563EB",
+      "teal": "#0D9488"
+    },
+    "dark": {
+      "background": "#0B1220",
+      "surface": "#111C2E",
+      "surfaceElevated": "#172338",
+      "text": "#F8FAFC",
+      "textMuted": "#94A3B8",
+      "border": "#263449",
+      "primary": "#60A5FA",
+      "teal": "#2DD4BF"
+    }
+  },
+  "decisions": [
+    "Use the system font stack, compact operational data tables, 16px card corners, and visible keyboard focus.",
+    "Use light, dark, and system appearance preferences with browser persistence; dark theme is global across routes.",
+    "Use status text with restrained color cues. Unknown identities remain neutral and are never treated as an automatic denial.",
+    "Use a light, grouped desktop navigation rail with a compact scrollable mobile navigation and consistent semantic surfaces across all routes."
+  ]
+}
